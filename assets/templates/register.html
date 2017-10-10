@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+</head>
+<body>
+    
+    <ul id="register-form">
+            <form action="../../api/controllers/Register.php" method="POST">
+                <li>Username:<br>
+                    <input class="input_data" id="username" type="text" name="username"/>
+                </li>
+                <li>E-mail:<br>
+                    <input class="input_data" id="email" type="password" name="email"/>
+                </li>
+                <li>Password:<br>
+                    <input class="input_data" id="password" type="text" name="password"/>
+                </li>
+                <li>Name:<br>
+                    <input class="input_data" id="name" type="password" name="name"/>
+                </li>
+                <li>Age:<br>
+                    <input class="input_data" id="age" type="text" name="age"/>
+                </li>
+                <li>Gender:<br>
+                    <input id="gender" type="radio" name="gender" value="male" checked/>
+                    <input id="gender" type="radio" name="gender" value="male"> Male<br>
+                    <input type="radio" name="gender" value="female"> Female<br>
+                 </li>
+                <li>
+                    <button id="register-btn">Register!</button>
+                </li><br>
+</body>
+</html>

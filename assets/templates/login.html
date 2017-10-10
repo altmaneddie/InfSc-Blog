@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript" src="../js/models/User.js"></script>
+        <script type="text/javascript" src="../js/views/login.js"></script>
+    </head>
+    <body>
+        <h1 id="welcome-msg"></h1>
+        <button id="logout-btn" class="hide">Logout</button>
+        <ul id="login-form">
+            <form action="../../api/models/UsersModel.php" method="POST">
+                <li>Username:<br>
+                    <input id="user_name" type="text" name="user_name"/>
+                </li>
+                <li>Password:<br>
+                    <input id="user_password" type="password" name="user_password"/>
+                </li>
+                <li>
+                    <button id="login-btn">Login</button>
+                </li><br>
+                <a href="register.html">Register Here!</a>
+            </form>
+        </section>
+    </body>
+</html>
